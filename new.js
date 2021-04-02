@@ -25,7 +25,7 @@
         //sign in with firebase auth
         auth.signInWithEmailAndPassword(email, password).then(user =>{
             alert("Login Successful :)");
-            var link = 'index.html';
+            var link = 'home.html';
             window.location.assign(link);
            
         }).catch(err => {
